@@ -43,3 +43,8 @@ Turn by Turn Android 2 Player Game
   >The player lifts his finger from previously selected tile
   
   
+# Game Additional Features
+
+1. **Responsive Design** : Supports 4'In to 84'In
+
+2. **User Customization With 14 Themes**
