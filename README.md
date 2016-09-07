@@ -34,8 +34,12 @@ Turn by Turn Android 2 Player Game
 
 4. **Goes on unitl-**
 
-5. **GAME OVER:**
+5. The Game Will Notify the maximum no. of fingers per person he can hold onto the device at a time.
+
+6. **GAME OVER:**
 
   >The player clicks on the Worng tile
   
   >The player lifts his finger from previously selected tile
+  
+  
