@@ -11,7 +11,9 @@ Turn by Turn Android 2 Player Game
 
   ii) Download and Install Game Apk file     [Download here](https://netbeans.org/downloads/)
 
-2. Open {AppName}
+2. Open FinomenaLaunchpad
+
+![MultiTouch](http://www.gifizer.com/gifs/in/71cb97f05a9da6f82b149f40d6fe5d21.gif)
 
 3. MultiTouch Calibration Function Will Active For First Time, Which Records Your MultiTouch Pointers Supported by your Device.
 
@@ -24,4 +26,16 @@ Turn by Turn Android 2 Player Game
 
 # Game Rules
 
-1. 
+1. The game starts with a random F-tile highlighted with * Mark.
+
+2. The player would touch and hold the highlighted F-tile, after that next random tile would automatically get highlighted  
+
+3. The 2nd player would touch and hold the next highlighted tile.
+
+4. **Goes on unitl-**
+
+5. **GAME OVER:**
+
+  >The player clicks on the Worng tile
+  
+  >The player lifts his finger from previously selected tile
