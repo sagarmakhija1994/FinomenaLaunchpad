@@ -49,3 +49,5 @@ Turn by Turn Android 2 Player Game
 1. **Responsive Design** : Supports 4'In to 84'In
 
 2. **User Customization With 14 Themes**
+
+3. **APK File Less Than 2 MB in Size**
