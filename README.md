@@ -9,7 +9,7 @@ Turn by Turn Android 2 Player Game
 
   i) Open Settings -> Security
 
-  ii) Download and Install Game Apk file     [Download here](https://netbeans.org/downloads/)
+  ii) Download and Install Game Apk file     [Download here](https://drive.google.com/open?id=0Bx3jBu0kWpRWcWFKS0pXSjV1OVE)
 
 2. Open FinomenaLaunchpad
 
