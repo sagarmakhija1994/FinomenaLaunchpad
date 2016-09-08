@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.sagarmakhija1994gmail.finomenalaunchpad.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <com.sagarmakhija1994gmail.finomenalaunchpad.MultitouchView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/myCustomeView"
+        />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Place Your 10 fingers on White Screen at the same Time"
+    android:id="@+id/textView"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="10"
+        android:text=" After That,\n Leave 10 fingers and\n Press This Button"
+        android:id="@+id/textView1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="100dp"/>
+
+    <TextView
+        android:paddingTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="One Time Multi-Touch Testing"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sagarmakhija1994gmail.finomenalaunchpad.Main_Menue"
+    android:id="@+id/layoutSettings">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView1"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:id="@+id/mainlayout1"
+        android:backgroundTintMode="src_over"
+        android:focusableInTouchMode="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Finomena Launchpad"
+            android:id="@+id/textView2"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:textSize="45dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:textColor="#ffffff" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your Device Support Max 0 Multi-Touch Points"
+            android:id="@+id/textView4"
+            android:textAlignment="center"
+            android:textColor="#ffffff"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Select Difficulty"
+            android:id="@+id/textView3"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textColor="#ffffff"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="4 Tiles"
+            android:id="@+id/button1"
+            android:layout_centerVertical="true"
+            android:layout_alignRight="@+id/scrollView1"
+            android:layout_alignEnd="@+id/scrollView1"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_green"
+            android:onClick="stage4"
+            android:layout_margin="10dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="6 Tiles"
+            android:id="@+id/button2"
+            android:layout_centerVertical="true"
+            android:layout_alignRight="@+id/scrollView1"
+            android:layout_alignEnd="@+id/scrollView1"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_green"
+            android:onClick="stage6"
+            android:layout_margin="10dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="8 Tiles"
+            android:id="@+id/button3"
+            android:layout_centerVertical="true"
+            android:layout_alignRight="@+id/scrollView1"
+            android:layout_alignEnd="@+id/scrollView1"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_green"
+            android:onClick="stage8"
+            android:layout_margin="10dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="10 Tiles"
+            android:id="@+id/button4"
+            android:layout_centerVertical="true"
+            android:layout_alignRight="@+id/scrollView1"
+            android:layout_alignEnd="@+id/scrollView1"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_green"
+            android:onClick="stage10"
+            android:layout_margin="10dp"/>
+    </LinearLayout>
+    </ScrollView>
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/menu_labels_right"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        fab:menu_labels_ellipsize="end"
+        fab:menu_labels_singleLine="true"
+        fab:menu_backgroundColor="#ccffffff"
+        fab:menu_labels_position="left"
+        style="@style/MenuButtonsStyle">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/appthemeicon"
+            fab:fab_size="mini"
+            fab:fab_label="App Theme"
+            fab:menu_backgroundColor="#ccffffff"
+            android:onClick="fbtn_theme"
+            style="@style/MenuButtonsSmall.Green" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/adddeviceicon"
+            fab:fab_size="mini"
+            fab:fab_label="Device Calibrate"
+            android:onClick="fbtn_Calibrate"
+            fab:menu_backgroundColor="#ccffffff"
+            style="@style/MenuButtonsSmall.Green" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lico"
+            fab:fab_size="mini"
+            fab:fab_label="About"
+            android:onClick="fbtn_About"
+            fab:menu_backgroundColor="#ccffffff"
+            style="@style/MenuButtonsSmall.Green" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/pico"
+            fab:fab_size="mini"
+            fab:fab_label="Exit"
+            android:onClick="fbtn_exit"
+            fab:menu_backgroundColor="#ccffffff"
+            style="@style/MenuButtonsSmall.Green" />
+    </com.github.clans.fab.FloatingActionMenu>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="sagarmakhija1994@gmail.com"
+        android:id="@+id/textView15"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="V.1.0.2"
+        android:id="@+id/textView16"
+        android:layout_above="@+id/textView15"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sagarmakhija1994gmail.finomenalaunchpad">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".Main_Menue"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activityStage4" />
+        <activity android:name=".activityStage6" />
+        <activity android:name=".ctivityStage8" />
+        <activity android:name=".activityStage10" />
+        <activity android:name=".activityStage4_1" />
+        <activity android:name=".activityStage4_2" />
+        <activity android:name=".activityStage4_3" />
+        <activity android:name=".activityStage4_4" />
+        <activity android:name=".activityStage6_1" />
+        <activity android:name=".activityStage6_2" />
+        <activity android:name=".activityStage6_3" />
+        <activity android:name=".activityStage6_4" />
+        <activity android:name=".activityStage6_5" />
+        <activity android:name=".activityStage6_6" />
+        <activity android:name=".activityStage8_1" />
+        <activity android:name=".activityStage8_2" />
+        <activity android:name=".activityStage8_3" />
+        <activity android:name=".activityStage8_4" />
+        <activity android:name=".activityStage8_5" />
+        <activity android:name=".activityStage8_6" />
+        <activity android:name=".activityStage10_1" />
+        <activity android:name=".activityStage10_2" />
+        <activity android:name=".activityStage10_3" />
+        <activity android:name=".activityStage10_4" />
+        <activity android:name=".activityStage10_5" />
+        <activity android:name=".activityStage10_6" />
+        <activity android:name=".activityTheme" />
+        <activity android:name=".activityAbout"></activity>
+    </application>
+
+</manifest>
