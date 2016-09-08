@@ -1,6 +1,8 @@
 # FinomenaLaunchpad
 Turn by Turn Android 2 Player Game
 
+![GameTrial](http://sagarmakhija.xyz/GIF_Images/Game_Trial.gif)
+
 
 # Procedure for Installation
 
