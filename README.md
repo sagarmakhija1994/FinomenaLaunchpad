@@ -1,7 +1,6 @@
 # FinomenaLaunchpad
 Turn by Turn Android 2 Player Game
 
-![Android Game](http://www.gifizer.com/gifs/in/71cb97f05a9da6f82b149f40d6fe5d21.gif)
 
 # Procedure for Installation
 
@@ -13,7 +12,7 @@ Turn by Turn Android 2 Player Game
 
 2. Open FinomenaLaunchpad
 
-![MultiTouch](http://www.gifizer.com/gifs/in/71cb97f05a9da6f82b149f40d6fe5d21.gif)
+![MultiTouch](http://sagarmakhija.xyz/GIF_Images/OneTimeSetup.gif)
 
 3. MultiTouch Calibration Function Will Active For First Time, Which Records Your MultiTouch Pointers Supported by your Device.
 
